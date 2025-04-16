@@ -9,11 +9,14 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
 }
+p{font-family: monospace;}
 
 h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
+    
 }
 main { 
     display: grid;
@@ -51,3 +54,28 @@ h1, h2 {
     border-right: 1px solid lightgray;
 }
 
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 30px 0;
+    border: 1px dotted rgb(64, 194, 226);
+}
+
+th, td {
+    padding: 10px; 
+    text-align: left; 
+    border-bottom: 1px solid #65d1cc; 
+}
+
+th {
+    background-color: #0da598; 
+    color: white; 
+}
+
+tr:nth-child(even) {
+    background-color: #dadada; 
+}
+
+tr:hover {
+    background-color: #3ce9e0; 
+}
